@@ -1,0 +1,121 @@
+{
+  "Carl": {
+    "role": "admin",
+    "qb_flex_uses": 0,
+    "used_players": [],
+    "roster": {
+      "QB": null,
+      "RB1": null,
+      "RB2": null,
+      "WR1": null,
+      "WR2": null,
+      "WR3": null,
+      "TE": null,
+      "FLEX": null,
+      "K": null,
+      "DST": null
+    }
+  },
+  "Jacob": {
+    "role": "user",
+    "qb_flex_uses": 0,
+    "used_players": [],
+    "roster": {
+      "QB": null,
+      "RB1": null,
+      "RB2": null,
+      "WR1": null,
+      "WR2": null,
+      "WR3": null,
+      "TE": null,
+      "FLEX": null,
+      "K": null,
+      "DST": null
+    }
+  },
+  "Chris": {
+    "role": "user",
+    "qb_flex_uses": 0,
+    "used_players": [],
+    "roster": {
+      "QB": null,
+      "RB1": null,
+      "RB2": null,
+      "WR1": null,
+      "WR2": null,
+      "WR3": null,
+      "TE": null,
+      "FLEX": null,
+      "K": null,
+      "DST": null
+    }
+  },
+  "Matt": {
+    "role": "user",
+    "qb_flex_uses": 0,
+    "used_players": [],
+    "roster": {
+      "QB": null,
+      "RB1": null,
+      "RB2": null,
+      "WR1": null,
+      "WR2": null,
+      "WR3": null,
+      "TE": null,
+      "FLEX": null,
+      "K": null,
+      "DST": null
+    }
+  },
+  "AJ": {
+    "role": "user",
+    "qb_flex_uses": 0,
+    "used_players": [],
+    "roster": {
+      "QB": null,
+      "RB1": null,
+      "RB2": null,
+      "WR1": null,
+      "WR2": null,
+      "WR3": null,
+      "TE": null,
+      "FLEX": null,
+      "K": null,
+      "DST": null
+    }
+  },
+  "Ben": {
+    "role": "user",
+    "qb_flex_uses": 0,
+    "used_players": [],
+    "roster": {
+      "QB": null,
+      "RB1": null,
+      "RB2": null,
+      "WR1": null,
+      "WR2": null,
+      "WR3": null,
+      "TE": null,
+      "FLEX": null,
+      "K": null,
+      "DST": null
+    }
+  },
+  "Tate": {
+    "role": "user",
+    "qb_flex_uses": 0,
+    "used_players": [],
+    "roster": {
+      "QB": null,
+      "RB1": null,
+      "RB2": null,
+      "WR1": null,
+      "WR2": null,
+      "WR3": null,
+      "TE": null,
+      "FLEX": null,
+      "K": null,
+      "DST": null
+    }
+  }
+}

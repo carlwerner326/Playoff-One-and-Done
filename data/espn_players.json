@@ -1,0 +1,389 @@
+{
+  "Buffalo Bills": {
+    "QB": [
+      "Josh Allen"
+    ],
+    "RB": [
+      "James Cook III",
+      "Ray Davis",
+      "Ty Johnson"
+    ],
+    "K": ["Matt Prater"],
+    "WR": [
+      "Keon Coleman",
+      "Brandin Cooks",
+      "Gabe Davis",
+      "Joshua Palmer",
+      "Khalil Shakir",
+      "Tyrell Shavers",
+      "Curtis Samuel"
+    ],
+    "TE": [
+      "Jackson Hawes",
+      "Dalton Kincaid",
+      "Dawson Knox",
+      "Keleki Latu"
+    ],
+    "DST": [
+      "Buffalo Bills"
+    ]
+  },
+  "Carolina Panthers": {
+    "QB": [
+      "Bryce Young"
+    ],
+    "RB": [
+      "Rico Dowdle",
+      "Trevor Etienne",
+      "Chuba Hubbard",
+      "Jonathon Brooks"
+    ],
+    "K": ["Ryan Fitzgerald"],
+    "WR": [
+      "Jalen Coker",
+      "Jimmy Horn Jr.",
+      "Xavier Legette",
+      "Tetairoa McMillan",
+      "Hunter Renfrow",
+      "Brycen Tremayne",
+      "David Moore"
+    ],
+    "TE": [
+      "Mitchell Evans",
+      "James Mitchell",
+      "Tommy Tremble"
+    ],
+    "DST": [
+      "Carolina Panthers"
+    ]
+  },
+  "Chicago Bears": {
+    "QB": [
+      "Caleb Williams"
+    ],
+    "RB": [
+      "Travis Homer",
+      "Kyle Monangai",
+      "D'Andre Swift"
+    ],
+    "K": ["Cairo Santos"],
+    "WR": [
+      "Luther Burden III",
+      "Devin Duvernay",
+      "DJ Moore",
+      "Rome Odunze",
+      "Jahdae Walker",
+      "Olamide Zaccheaus"
+    ],
+    "TE": [
+      "Nikola Kalinic",
+      "Cole Kmet",
+      "Colston Loveland",
+      "Durham Smythe"
+    ],
+    "DST": [
+      "Chicago Bears"
+    ]
+  },
+  "Denver Broncos": {
+    "QB": [
+      "Bo Nix"
+    ],
+    "RB": [
+      "Tyler Badie",
+      "RJ Harvey",
+      "Jaleel McLaughlin"
+    ],
+    "K": ["Wil Lutz"],
+    "WR": [
+      "Pat Bryant",
+      "Troy Franklin",
+      "Lil'Jordan Humphrey",
+      "Marvin Mims Jr.",
+      "Courtland Sutton"
+    ],
+    "TE": [
+      "Nate Adkins",
+      "Evan Engram",
+      "Marcedes Lewis",
+      "Adam Trautman"
+    ],
+    "DST": [
+      "Denver Broncos"
+    ]
+  },
+  "Green Bay Packers": {
+    "QB": [
+      "Jordan Love"
+    ],
+    "RB": [
+      "Chris Brooks",
+      "Josh Jacobs",
+      "Emanuel Wilson"
+    ],
+    "K": ["Brandon McManus"],
+    "WR": [
+      "Romeo Doubs",
+      "Matthew Golden",
+      "Jakobie Keeney-James",
+      "Jayden Reed",
+      "Christian Watson",
+      "Dontayvion Wicks",
+      "Bo Melton"
+    ],
+    "TE": [
+      "Drake Dabney",
+      "Luke Musgrave",
+      "Josh Whyle"
+    ],
+    "DST": [
+      "Green Bay Packers"
+    ]
+  },
+  "Houston Texans": {
+    "QB": [
+      "C.J. Stroud"
+    ],
+    "RB": [
+      "Nick Chubb",
+      "Jawhar Jordan",
+      "Woody Marks",
+      "Dare Ogunbowale"
+    ],
+    "K": ["Ka'imi Fairbairn"],
+    "WR": [
+      "Braxton Berrios",
+      "Nico Collins",
+      "Jayden Higgins",
+      "Xavier Hutchinson",
+      "Christian Kirk",
+      "Jaylin Noel",
+      "Justin Watson"
+    ],
+    "TE": [
+      "Harrison Bryant",
+      "Dalton Schultz",
+      "Cade Stover"
+    ],
+    "DST": [
+      "Houston Texans"
+    ]
+  },
+  "Jacksonville Jaguars": {
+    "QB": [
+      "Trevor Lawrence"
+    ],
+    "RB": [
+      "LeQuint Allen Jr.",
+      "DeeJay Dallas",
+      "Travis Etienne Jr.",
+      "Bhayshul Tuten"
+    ],
+    "K": ["Cam Little"],
+    "WR": [
+      "Dyami Brown",
+      "Jakobi Meyers",
+      "Tim Patrick",
+      "Brian Thomas Jr.",
+      "Parker Washington"
+    ],
+    "TE": [
+      "Quintin Morris",
+      "Johnny Mundt",
+      "Brenton Strange"
+    ],
+    "DST": [
+      "Jacksonville Jaguars"
+    ]
+  },
+  "Los Angeles Chargers": {
+    "QB": [
+      "Justin Herbert"
+    ],
+    "RB": [
+      "Omarion Hampton",
+      "Hassan Haskins",
+      "Jaret Patterson",
+      "Kimani Vidal"
+    ],
+    "K": ["Cameron Dicker"],
+    "WR": [
+      "Keenan Allen",
+      "Derius Davis",
+      "Tre' Harris",
+      "Quentin Johnston",
+      "KeAndre Lambert-Smith",
+      "Ladd McConkey"
+    ],
+    "TE": [
+      "Tyler Conklin",
+      "Will Dissly",
+      "Oronde Gadsden"
+    ],
+    "DST": [
+      "Los Angeles Chargers"
+    ]
+  },
+  "Los Angeles Rams": {
+    "QB": [
+      "Matthew Stafford"
+    ],
+    "RB": [
+      "Blake Corum",
+      "Ronnie Rivers",
+      "Kyren Williams"
+    ],
+    "K": [],
+    "WR": [
+      "Davante Adams",
+      "Tutu Atwell",
+      "Konata Mumpfield",
+      "Puka Nacua",
+      "Xavier Smith",
+      "Jordan Whittington"
+    ],
+    "TE": [
+      "Davis Allen",
+      "Terrance Ferguson",
+      "Tyler Higbee",
+      "Colby Parkinson"
+    ],
+    "DST": [
+      "Los Angeles Rams"
+    ]
+  },
+  "New England Patriots": {
+    "QB": [
+      "Drake Maye"
+    ],
+    "RB": [
+      "TreVeyon Henderson",
+      "D'Ernest Johnson",
+      "Rhamondre Stevenson"
+    ],
+    "K": ["Andy Borregales"],
+    "WR": [
+      "Kayshon Boutte",
+      "Efton Chism III",
+      "Stefon Diggs",
+      "DeMario Douglas",
+      "Kyle Williams"
+    ],
+    "TE": [
+      "CJ Dippre",
+      "Hunter Henry",
+      "Austin Hooper"
+    ],
+    "DST": [
+      "New England Patriots"
+    ]
+  },
+  "Philadelphia Eagles": {
+    "QB": [
+      "Jalen Hurts"
+    ],
+    "RB": [
+      "Saquon Barkley",
+      "Tank Bigsby",
+      "Will Shipley"
+    ],
+    "K": ["Jake Elliott"],
+    "WR": [
+      "A.J. Brown",
+      "Darius Cooper",
+      "Britain Covey",
+      "Jahan Dotson",
+      "DeVonta Smith"
+    ],
+    "TE": [
+      "Grant Calcaterra",
+      "Dallas Goedert",
+      "Kylen Granson",
+      "Cameron Latu"
+    ],
+    "DST": [
+      "Philadelphia Eagles"
+    ]
+  },
+  "Pittsburgh Steelers": {
+    "QB": [
+      "Aaron Rodgers"
+    ],
+    "RB": [
+      "Kenneth Gainwell",
+      "Kaleb Johnson",
+      "Jaylen Warren"
+    ],
+    "K": ["Chris Boswell"],
+    "WR": [
+      "Calvin Austin III",
+      "DK Metcalf",
+      "Scotty Miller",
+      "Ben Skowronek",
+      "Adam Thielen",
+      "Marquez Valdes-Scantling",
+      "Roman Wilson"
+    ],
+    "TE": [
+      "Pat Freiermuth",
+      "Connor Heyward",
+      "Jonnu Smith"
+    ],
+    "DST": [
+      "Pittsburgh Steelers"
+    ]
+  },
+  "San Francisco 49ers": {
+    "QB": [
+      "Brock Purdy"
+    ],
+    "RB": [
+      "Jordan James",
+      "Christian McCaffrey",
+      "Brian Robinson Jr."
+    ],
+    "K": ["Eddy Pineiro"],
+    "WR": [
+      "Kendrick Bourne",
+      "Jauan Jennings",
+      "Skyy Moore",
+      "Ricky Pearsall",
+      "Demarcus Robinson",
+      "Jordan Watkins",
+      "Kyle Juszczyk"
+    ],
+    "TE": [
+      "Luke Farrell",
+      "George Kittle",
+      "Jake Tonges"
+    ],
+    "DST": [
+      "San Francisco 49ers"
+    ]
+  },
+  "Seattle Seahawks": {
+    "QB": [
+      "Sam Darnold"
+    ],
+    "RB": [
+      "Cam Akers",
+      "Zach Charbonnet",
+      "Kenneth Walker III"
+    ],
+    "K": ["Jason Myers"],
+    "WR": [
+      "Jake Bobo",
+      "Cooper Kupp",
+      "Rashid Shaheed",
+      "Jaxon Smith-Njigba",
+      "Dareke Young"
+    ],
+    "TE": [
+      "AJ Barner",
+      "Eric Saubert"
+    ],
+    "DST": [
+      "Seattle Seahawks"
+    ]
+  }
+}

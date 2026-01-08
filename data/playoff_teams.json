@@ -1,0 +1,21 @@
+{
+  "NFC": [
+    "Seattle Seahawks",
+    "Chicago Bears",
+    "Philadelphia Eagles",
+    "San Francisco 49ers",
+    "Los Angeles Rams",
+    "Green Bay Packers",
+    "Carolina Panthers"
+
+  ],
+  "AFC": [
+    "Denver Broncos",
+    "New England Patriots",
+    "Jacksonville Jaguars",
+    "Los Angeles Chargers",
+    "Buffalo Bills",
+    "Pittsburgh Steelers",
+    "Houston Texans"
+  ]
+}

@@ -1,16 +1,20 @@
 import streamlit as st
-from utils.team_store import load_teams, save_teams
+from utils.team_store import load_teams
 
+# -------------------------
+# Load persistent data
+# -------------------------
 teams = load_teams()
 
-
-# Initialize session user
-if "user" not in st.session_state:
-    st.session_state.user = None
-
+# -------------------------
+# Session State
+# -------------------------
 if "unlocked_user" not in st.session_state:
     st.session_state.unlocked_user = None
 
+# -------------------------
+# Page Header
+# -------------------------
 st.title("Playoff Fantasy One-and-Done")
 
 # ----- LEAGUE RULES ----
@@ -19,14 +23,13 @@ st.markdown("""
 • One-and-Done playoff fantasy  
 • Each player can only be used once across the playoffs  
 • Lineups can be changed freely until a player's game kicks off  
-• Once a game kicks off, those players are locked   
+• Once a game kicks off, those players are locked  
 • Picks are hidden from others until each game starts  
 • Highest total fantasy points after the Super Bowl wins  
-  
-• FLEX allows QB / RB / WR / TE       
-""")
 
-st.subheader("QB can be used in the FLEX spot a maximum of 2 times")
+• FLEX allows QB / RB / WR / TE  
+• QB may be used in FLEX a maximum of **2 times**
+""")
 
 # ---- COMMISSIONER NOTE ----
 st.subheader("Note")
@@ -35,12 +38,15 @@ Set your lineups early. I’m not fixing shit.
 Looking at you AJ
 """)
 
-
 st.divider()
 
+# -------------------------
+# Login Section
+# -------------------------
 user = st.selectbox("Who are you?", list(teams.keys()))
 
-if user != st.session_state.unlocked_user:
+# Gate access until correct PIN is entered
+if st.session_state.unlocked_user != user:
     pin = st.text_input("Enter PIN", type="password")
 
     if st.button("Enter"):
@@ -52,25 +58,8 @@ if user != st.session_state.unlocked_user:
 
     st.stop()
 
-# ---- ADMIN TOOLS ----
-if teams[st.session_state.unlocked_user]["role"] == "admin":
-    st.divider()
-    st.subheader("Admin Tools")
-
-    selected_user = st.selectbox(
-        "Select user",
-        list(teams.keys()),
-        key="admin_user_select"
-    )
-
-    new_pin = st.text_input(
-        "Set new PIN",
-        type="password",
-        key="admin_pin_input"
-    )
-
-    if st.button("Update PIN"):
-        teams[selected_user]["pin"] = new_pin
-        save_teams(teams)
-        st.success(f"PIN updated for {selected_user}")
-
+# -------------------------
+# Navigation
+# -------------------------
+if st.button("Go to My Team"):
+    st.switch_page("pages/1_My_Team.py")

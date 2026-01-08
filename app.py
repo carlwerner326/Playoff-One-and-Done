@@ -17,7 +17,7 @@ PINS = {
     "Jacob": "1990",
     "Chris": "2323",
     "Matt": "",
-    "AJ": "",
+    "AJ": "6969",
     "Ben": "",
     "Speedy": "",
 }
@@ -69,6 +69,33 @@ if user != st.session_state.unlocked_user:
             st.error("Incorrect PIN")
 
     st.stop()
+
+    teams = load_teams()
+
+if (
+    "unlocked_user" in st.session_state
+    and teams[st.session_state.unlocked_user]["role"] == "admin"
+):
+    st.divider()
+    st.subheader("Admin Tools")
+
+    selected_user = st.selectbox(
+        "Select user",
+        list(teams.keys()),
+        key="admin_user_select"
+    )
+
+    new_pin = st.text_input(
+        "Set new PIN",
+        type="password",
+        key="admin_pin_input"
+    )
+
+    if st.button("Update PIN"):
+        teams[selected_user]["pin"] = new_pin
+        save_teams(teams)
+        st.success(f"PIN updated for {selected_user}")
+
 
 
 if st.button("Enter"):

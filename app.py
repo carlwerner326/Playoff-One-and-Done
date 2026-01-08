@@ -5,6 +5,8 @@ from utils.team_store import load_teams
 # Load persistent data
 # -------------------------
 teams = load_teams()
+teams = {k: v.copy() for k, v in teams.items()}  # prevent mutation bleed
+
 
 # -------------------------
 # Session State
@@ -45,18 +47,31 @@ st.divider()
 # -------------------------
 user = st.selectbox("Who are you?", list(teams.keys()))
 
-# Gate access until correct PIN is entered
 if st.session_state.unlocked_user != user:
     pin = st.text_input("Enter PIN", type="password")
 
     if st.button("Enter"):
-        if pin == teams[user]["pin"]:
+        user_data = teams.get(user)
+
+        if not user_data:
+            st.error("User not found.")
+            st.stop()
+
+        stored_pin = user_data.get("pin")
+
+        if not stored_pin:
+            st.error("PIN not configured for this user.")
+            st.stop()
+
+        if pin == stored_pin:
             st.session_state.unlocked_user = user
             st.success("Unlocked")
+            st.rerun()
         else:
             st.error("Incorrect PIN")
 
     st.stop()
+
 
 # -------------------------
 # Navigation

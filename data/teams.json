@@ -1,6 +1,7 @@
 {
   "Carl": {
     "role": "admin",
+    "pin": "092391",
     "qb_flex_uses": 0,
     "used_players": [],
     "roster": {
@@ -18,6 +19,7 @@
   },
   "Jacob": {
     "role": "user",
+    "pin": "1991",
     "qb_flex_uses": 0,
     "used_players": [],
     "roster": {
@@ -35,6 +37,7 @@
   },
   "Chris": {
     "role": "user",
+    "pin": "2323",
     "qb_flex_uses": 0,
     "used_players": [],
     "roster": {
@@ -52,6 +55,7 @@
   },
   "Matt": {
     "role": "user",
+    "pin": "1997",
     "qb_flex_uses": 0,
     "used_players": [],
     "roster": {
@@ -69,6 +73,7 @@
   },
   "AJ": {
     "role": "user",
+    "pin": "6969",
     "qb_flex_uses": 0,
     "used_players": [],
     "roster": {
@@ -87,6 +92,7 @@
   "Ben": {
     "role": "user",
     "qb_flex_uses": 0,
+    "pin": "1234",
     "used_players": [],
     "roster": {
       "QB": null,
@@ -101,8 +107,9 @@
       "DST": null
     }
   },
-  "Tate": {
+  "Speedy": {
     "role": "user",
+    "pin": "1357",
     "qb_flex_uses": 0,
     "used_players": [],
     "roster": {

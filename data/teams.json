@@ -92,7 +92,7 @@
   "Ben": {
     "role": "user",
     "qb_flex_uses": 0,
-    "pin": "1234",
+    "pin": "1233",
     "used_players": [],
     "roster": {
       "QB": null,
@@ -109,7 +109,7 @@
   },
   "Speedy": {
     "role": "user",
-    "pin": "1357",
+    "pin": "4864",
     "qb_flex_uses": 0,
     "used_players": [],
     "roster": {

@@ -1,26 +1,8 @@
 import streamlit as st
+from utils.team_store import load_teams, save_teams
 
-USERS = {
-    "Carl": "admin",
-    "Jacob": "user",
-    "Chris": "user",
-    "Matt": "user",
-    "AJ": "user",
-    "Ben": "user",
-    "Speedy": "user",
-}
+teams = load_teams()
 
-MASTER_PIN = "092391"
-
-PINS = {
-    "Carl": "092391",
-    "Jacob": "1990",
-    "Chris": "2323",
-    "Matt": "",
-    "AJ": "6969",
-    "Ben": "",
-    "Speedy": "",
-}
 
 # Initialize session user
 if "user" not in st.session_state:
@@ -56,13 +38,13 @@ Looking at you AJ
 
 st.divider()
 
-user = st.selectbox("Who are you?", list(USERS.keys()))
+user = st.selectbox("Who are you?", list(teams.keys()))
 
 if user != st.session_state.unlocked_user:
     pin = st.text_input("Enter PIN", type="password")
 
     if st.button("Enter"):
-        if pin == PINS.get(user) or pin == MASTER_PIN:
+        if pin == teams[user]["pin"]:
             st.session_state.unlocked_user = user
             st.success("Unlocked")
         else:
@@ -70,12 +52,8 @@ if user != st.session_state.unlocked_user:
 
     st.stop()
 
-    teams = load_teams()
-
-if (
-    "unlocked_user" in st.session_state
-    and teams[st.session_state.unlocked_user]["role"] == "admin"
-):
+# ---- ADMIN TOOLS ----
+if teams[st.session_state.unlocked_user]["role"] == "admin":
     st.divider()
     st.subheader("Admin Tools")
 
@@ -96,8 +74,3 @@ if (
         save_teams(teams)
         st.success(f"PIN updated for {selected_user}")
 
-
-
-if st.button("Enter"):
-    st.session_state.user = user
-    st.switch_page("pages/1_My_Team.py")

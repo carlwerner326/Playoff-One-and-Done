@@ -53,6 +53,16 @@ DEFAULT_SETTINGS = {
 
 }
 
+DST_POINTS_ALLOWED = {
+    (0, 0, 10),
+    (1, 6, 7),
+    (7, 13, 4),
+    (14, 20, 1),
+    (21, 27, 0),
+    (28, 34, -1),
+    (35, 1000, -4),
+}
+
 def calculate_dk_score(position, stats, settings):
     """
     Docstring for calculate_dk_score
@@ -147,6 +157,10 @@ def calculate_dk_score(position, stats, settings):
     # ------------------
     # DEFENSE / SPECIAL TEAMS
     # ------------------
+    points_allowed = stats.get("points_allowed")
+    if points_allowed is not None:
+        points += dst_points_allowed_score(points_allowed)
+
     sacks = stats.get("sacks", 0)
     ints= stats.get("def_interceptions", 0)
     fumble_recoveries = stats.get("fumble_recoveries", 0)
@@ -164,22 +178,20 @@ def calculate_dk_score(position, stats, settings):
 
     return round(points, 2)
 
+def dst_points_allowed_score(points_allowed):
+    for low, high, score in DST_POINTS_ALLOWED:
+        if low <= points_allowed <= high:
+            return score
+    return 0
+
 
 if __name__ == "__main__":
     test_stats = {
-        # Kicker
-        "xp_made": 3,
-        "xp_missed": 1,
-        "fg_made_0_39": 1,
-        "fg_made_40_49": 1,
-        "fg_made_50_plus": 1,
-        "fg_missed": 1,
-
         # DST
+        "points_allowed": 17,
         "sacks": 4,
         "def_interceptions": 1,
         "fumble_recoveries": 1,
-        "safeties": 0,
         "blocked_kicks": 1,
         "def_tds": 1,
     }
@@ -190,6 +202,6 @@ if __name__ == "__main__":
         settings=DEFAULT_SETTINGS
     )
 
-    print("K + DST Score:", score)
+    print("DST Score:", score)
 
 

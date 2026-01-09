@@ -11,6 +11,34 @@ def fetch_scoreboard():
     response.raise_for_status()
     return response.json()
 
+from datetime import datetime, timezone
+
+def extract_kickoff_times(scoreboard_data):
+    """
+    Returns dict: game_id -> kickoff time (UTC ISO String)
+    """
+    games = {}
+
+    for event in scoreboard_data.get("events", []):
+        game_id = event.get("id")
+        date_str = event.get("date")   #ISO string from ESPN
+
+        if not game_id or not date_str:
+            continue
+
+        kickoff_utc = (
+            datetime
+            .fromisoformat(date_str.replace("Z", "+00:00"))
+            .astimezone(timezone.utc)
+            .isoformat()
+        )
+
+        games[game_id] = {
+            "kickoff_utc": kickoff_utc
+        }
+
+    return games
+
 def load_playoff_teams():
     with open("data/playoff_teams.json", "r") as f:
         data = json.load(f)
@@ -92,6 +120,14 @@ if __name__ == "__main__":
 
     with open("data/espn_players.json", "w") as f:
         json.dump(all_rosters, f, indent=2)
+
+    scoreboard = fetch_scoreboard()
+    kickoff_times = extract_kickoff_times(scoreboard)
+
+    with open("data/espn_games.json", "w") as f:
+        json.dump(kickoff_times, f, indent=2)
+
+    print(f"Saved espn_games.json({len(kickoff_times)} games)")
 
     print("\nSaved espn_players.json")
 

@@ -42,22 +42,22 @@ user = st.session_state.unlocked_user
 # -------------------------
 # Locking At Kickoff
 # -------------------------
-def is_locked(team_or_player):
-    from datetime import datetime, timezone
+from utils.time_lock import is_game_locked
 
-    def is_locked(player_name):
-        teams = load_teams()
-        espn_players = load_espn_players()
+def is_locked(player_name):
+    """
+    Returns True if the player's game has kicked off
+    """
+    teams = load_teams()
 
-        now = datetime.now(timezone.utc)
-
-        for team_data in espn_players.values():
-            for position, players in team_data.items():
-                if player_name in players:
-                    kickoff = datetime.fromisoformat(team_data["kickoff"])
-                    return now >= kickoff
+    # Find which game this player belongs to
+    for user_data in teams.values():
+        for game_id, players in user_data.get("game_map", {}).items():
+            if player_name in players:
+                return is_game_locked(game_id)
 
     return False
+
 
 
 # -------------------------

@@ -9,6 +9,8 @@ from utils.weekly_reset import should_reset_today, perform_weekly_reset
 # if reset_date:
 #    perform_weekly_reset(reset_date)
 
+# test deploy - no functional change
+
 
 # -------------------------
 # Load persistent data

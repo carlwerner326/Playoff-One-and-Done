@@ -4,8 +4,12 @@ from utils.team_store import load_teams
 
 st.title("Leaderboard")
 
-with open("data/player_points.json") as f:
-    player_points = json.load(f)
+try:
+    with open("data/player_points.json") as f:
+        player_points = json.load(f)
+except FileNotFoundError:
+    player_points = {}
+
 
 teams = load_teams()
 

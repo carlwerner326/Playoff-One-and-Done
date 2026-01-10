@@ -1,6 +1,12 @@
 import json
 from pathlib import Path
-from ..scoring import calculate_dk_score, DEFAULT_SETTINGS
+import sys
+
+# allow imports from project root
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+
+from scoring import calculate_dk_score, DEFAULT_SETTINGS
+
 
 PLAYER_STATS_PATH = Path("data/player_stats.json")
 

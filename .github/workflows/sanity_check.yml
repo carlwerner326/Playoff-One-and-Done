@@ -16,5 +16,8 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install dependencies
+        run: pip install requests
+
       - name: Run ESPN read-only probe
         run: python scripts/pull_espn_stats_readonly.py

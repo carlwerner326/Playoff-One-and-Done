@@ -1,0 +1,32 @@
+{
+  "401772979": {
+    "kickoff_utc": "2026-01-10T21:30:00+00:00",
+    "home_team": "Carolina Panthers",
+    "away_team": "Los Angeles Rams"
+  },
+  "401772981": {
+    "kickoff_utc": "2026-01-11T01:00:00+00:00",
+    "home_team": "Chicago Bears",
+    "away_team": "Green Bay Packers"
+  },
+  "401772977": {
+    "kickoff_utc": "2026-01-11T18:00:00+00:00",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "Buffalo Bills"
+  },
+  "401772980": {
+    "kickoff_utc": "2026-01-11T21:30:00+00:00",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "San Francisco 49ers"
+  },
+  "401772978": {
+    "kickoff_utc": "2026-01-12T01:00:00+00:00",
+    "home_team": "New England Patriots",
+    "away_team": "Los Angeles Chargers"
+  },
+  "401772976": {
+    "kickoff_utc": "2026-01-13T01:15:00+00:00",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "Houston Texans"
+  }
+}

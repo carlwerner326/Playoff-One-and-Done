@@ -44,3 +44,22 @@ def is_game_locked_by_player(player_name, player_game_map):
         return False
 
     return is_game_locked(game_id)
+
+def get_first_kickoff_utc():
+    """
+    Returns the earliest kickoff_utc as a datetime, or None if no games.
+    """
+    games = load_espn_games()
+    if not games:
+        return None
+    
+    kickoffs = [
+        datetime.fromisoformat(g["kickoff_utc"])
+        for g in games.values()
+        if "kickoff_utc" in g
+    ]
+
+    return min(kickoffs) if kickoffs else None
+
+def is_lineup_locked():
+    return True

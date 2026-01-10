@@ -2,7 +2,7 @@ name: Sanity Check (No-Op)
 
 permissions:
   contents: write
-  
+
 on:
   workflow_dispatch:
 
@@ -22,19 +22,19 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run ESPN CI probe
-        run: python scripts/pull_espn_stats_readonly.py
+      - name: Run ESPN CI player stats updater
+        run: python scripts/update_espn_player_stats_ci.py
 
       - name: Configure git
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-      - name: Commit CI probe if changed
+      - name: Commit player stats if changed
         run: |
           if git status --porcelain | grep .; then
-            git add data/_ci_probe.json
-            git commit -m "CI: update ESPN probe"
+            git add data/player_stats.json
+            git commit -m "CI: update ESPN player stats"
             git push
           else
             echo "No changes to commit"

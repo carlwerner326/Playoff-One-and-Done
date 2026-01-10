@@ -35,24 +35,6 @@
       "DST": null
     }
   },
-  "Chris": {
-    "role": "user",
-    "pin": "2323",
-    "qb_flex_uses": 0,
-    "used_players": [],
-    "roster": {
-      "QB": null,
-      "RB1": null,
-      "RB2": null,
-      "WR1": null,
-      "WR2": null,
-      "WR3": null,
-      "TE": null,
-      "FLEX": null,
-      "K": null,
-      "DST": null
-    }
-  },
   "Matt": {
     "role": "user",
     "pin": "1997",

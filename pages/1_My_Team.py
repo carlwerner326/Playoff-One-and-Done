@@ -108,7 +108,7 @@ for slot in ROSTER_SLOTS:
     player = team["roster"][slot]
     display = player if player else "- empty -"
 
-    locked = player and is_locked(player)
+    locked = is_locked
 
     if locked and player not in teams[user]["used_players"]:
         teams[user]["used_players"].append(player)

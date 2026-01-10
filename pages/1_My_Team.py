@@ -42,22 +42,15 @@ user = st.session_state.unlocked_user
 # -------------------------
 # Locking At Kickoff
 # -------------------------
-from utils.time_lock import is_game_locked
+from utils.time_lock import is_lineup_locked
+st.error("Debug: time_lock imported")
 
-def is_locked(player_name):
+def is_locked(_player_name=None):
     """
-    Returns True if the player's game has kicked off
+    Global lineup lock:
+    Returns True once the first game of the weekend has kicked off.
     """
-    teams = load_teams()
-
-    # Find which game this player belongs to
-    for user_data in teams.values():
-        for game_id, players in user_data.get("game_map", {}).items():
-            if player_name in players:
-                return is_game_locked(game_id)
-
-    return False
-
+    return is_lineup_locked()
 
 
 # -------------------------

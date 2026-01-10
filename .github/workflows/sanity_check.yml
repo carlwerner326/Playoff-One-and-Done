@@ -1,0 +1,15 @@
+name: Sanity Check (No-Op)
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+jobs:
+  sanity-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say hello
+        run: echo "Hello from GitHub Actions — automation is alive."
+

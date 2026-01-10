@@ -4,6 +4,52 @@ import json
 from pathlib import Path
 from datetime import datetime, timezone
 
+# --------------------------------------------------
+# GLOBAL CSS — KELLY GREEN / GOLD THEME
+# --------------------------------------------------
+st.markdown("""
+<style>
+html, body, .stApp, .main {
+    background-color: #004C54 !important;
+}
+
+h1, h2, h3 {
+    color: white;
+}
+
+.stButton > button {
+    width: 100%;
+    text-align: left;
+    font-size: 1.05rem;
+    font-weight: 700;
+    border-radius: 14px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    background-color: rgba(0,0,0,0.25);
+    border: 2px solid #FFD046;
+    color: white;
+    box-shadow: 0 0 18px rgba(255, 208, 70, 0.25);
+}
+
+.stButton > button:hover {
+    background-color: rgba(255, 208, 70, 0.15);
+    border-color: #FFD046;
+}
+
+.stButton > button:disabled {
+    opacity: 0.6;
+    border-color: #999;
+    box-shadow: none;
+}
+
+.active-slot {
+    color: #FFD046;
+    font-weight: 900;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
 # -------------------------
 # ESPN player data
 # -------------------------
@@ -15,15 +61,12 @@ def load_espn_players():
 
 def get_players_for_position(position):
     espn_players = load_espn_players()
-
     players = sorted({
         player
         for team_data in espn_players.values()
         for player in team_data.get(position, [])
     })
-
     return players
-
 
 # -------------------------
 # Session State
@@ -38,9 +81,8 @@ if "unlocked_user" not in st.session_state or st.session_state.unlocked_user is 
 
 user = st.session_state.unlocked_user
 
-
 # -------------------------
-# Locking at kickoff (GLOBAL UI LOCK ONLY)
+# Locking at kickoff
 # -------------------------
 from utils.time_lock import is_lineup_locked, get_first_kickoff_utc
 
@@ -48,36 +90,12 @@ locked = is_lineup_locked()
 first_kickoff = get_first_kickoff_utc()
 now_utc = datetime.now(timezone.utc)
 
-
 # -------------------------
 # Roster configuration
 # -------------------------
 ROSTER_SLOTS = [
-    "QB",
-    "RB1",
-    "RB2",
-    "WR1",
-    "WR2",
-    "WR3",
-    "TE",
-    "FLEX",
-    "K",
-    "DST",
+    "QB","RB1","RB2","WR1","WR2","WR3","TE","FLEX","K","DST"
 ]
-
-SLOT_ALLOWED_POSITIONS = {
-    "QB": ["QB"],
-    "RB1": ["RB"],
-    "RB2": ["RB"],
-    "WR1": ["WR"],
-    "WR2": ["WR"],
-    "WR3": ["WR"],
-    "TE": ["TE"],
-    "FLEX": ["QB", "RB", "WR", "TE"],
-    "K": ["K"],
-    "DST": ["DST"],
-}
-
 
 # -------------------------
 # Playoff teams (DST)
@@ -88,38 +106,41 @@ with open(PLAYOFF_TEAMS_PATH) as f:
 
 ALL_TEAMS = PLAYOFF_TEAMS["NFC"] + PLAYOFF_TEAMS["AFC"]
 
-
 # -------------------------
 # Page UI
 # -------------------------
 st.title("My Team")
+st.subheader("My Roster")
 
 teams = load_teams()
 team = teams[user]
 
-st.subheader("My Roster")
-
+# -------------------------
+# Roster Buttons
+# -------------------------
 for slot in ROSTER_SLOTS:
     player = team["roster"].get(slot)
-    display = player if player else "- empty -"
+    display = player if player else "— empty —"
+
+    label = f"{slot}: {display}"
+    if st.session_state.active_slot == slot:
+        label = f"👉 {label}"
 
     if locked:
         st.button(
-            f"{slot}: {display} 🔒",
+            f"{label} 🔒",
             key=f"slot_{slot}",
             disabled=True
         )
     else:
-        if st.button(f"{slot}: {display}", key=f"slot_{slot}"):
+        if st.button(label, key=f"slot_{slot}"):
             st.session_state.active_slot = slot
-
 
 # -------------------------
 # Active Slot Indicator
 # -------------------------
 if st.session_state.active_slot:
     st.info(f"Active slot: {st.session_state.active_slot}")
-
 
 # -------------------------
 # Player Selection
@@ -144,7 +165,6 @@ if st.session_state.active_slot and not locked:
         st.session_state.active_slot = None
         st.rerun()
 
-
     # -------------------------
     # DST
     # -------------------------
@@ -159,12 +179,11 @@ if st.session_state.active_slot and not locked:
         elif selected != "— select —":
             set_slot("DST", selected)
 
-
     # -------------------------
-    # K / QB / RB / WR / TE
+    # Standard Positions
     # -------------------------
-    elif slot in ["K", "QB", "RB1", "RB2", "WR1", "WR2", "WR3", "TE"]:
-        pos = slot.replace("1", "").replace("2", "").replace("3", "")
+    elif slot in ["K","QB","RB1","RB2","WR1","WR2","WR3","TE"]:
+        pos = slot.replace("1","").replace("2","").replace("3","")
         players = [
             p for p in get_players_for_position(pos)
             if p not in teams[user]["used_players"]
@@ -179,7 +198,6 @@ if st.session_state.active_slot and not locked:
             clear_slot(slot)
         elif selected != "— select —":
             set_slot(slot, selected)
-
 
     # -------------------------
     # FLEX
@@ -221,13 +239,8 @@ if st.session_state.active_slot and not locked:
 
         if selected == "— clear —":
             clear_slot("FLEX")
-
         elif selected not in [
-            "— select —",
-            "— QBs —",
-            "— RBs —",
-            "— WRs —",
-            "— TEs —",
+            "— select —","— QBs —","— RBs —","— WRs —","— TEs —"
         ]:
             teams[user]["roster"]["FLEX"] = selected
             if selected in get_players_for_position("QB"):

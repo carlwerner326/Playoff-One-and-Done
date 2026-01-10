@@ -43,7 +43,7 @@ user = st.session_state.unlocked_user
 # Locking At Kickoff
 # -------------------------
 from utils.time_lock import is_lineup_locked
-st.error("Debug: time_lock imported")
+
 
 def is_locked(_player_name=None):
     """

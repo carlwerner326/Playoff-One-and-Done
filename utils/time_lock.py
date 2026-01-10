@@ -62,4 +62,12 @@ def get_first_kickoff_utc():
     return min(kickoffs) if kickoffs else None
 
 def is_lineup_locked():
-    return True
+    """
+    Returns True if the first kickoff has passed.
+    """
+    first_kickoff = get_first_kickoff_utc()
+    if not first_kickoff:
+        return False
+
+    now_utc = datetime.now(timezone.utc)
+    return now_utc >= first_kickoff

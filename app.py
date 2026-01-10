@@ -14,7 +14,6 @@ from utils.weekly_reset import should_reset_today, perform_weekly_reset
 # Load persistent data
 # -------------------------
 teams = load_teams()
-teams = {k: v.copy() for k, v in teams.items()}  # prevent mutation bleed
 
 
 # -------------------------

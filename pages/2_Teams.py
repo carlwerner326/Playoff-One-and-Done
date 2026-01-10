@@ -3,7 +3,7 @@ from utils.team_store import load_teams
 
 st.title('Teams')
 
-if "user" not in st.session_state:
+if "unlocked_user" not in st.session_state or st.session_state.unlocked_user is None:
     st.warning("Please login first.")
     st.stop()
 
@@ -12,7 +12,6 @@ def is_locked(team_or_player):
     return False 
 
 teams = load_teams()
-
 for username, data in teams.items():
     st.subheader(username)
 

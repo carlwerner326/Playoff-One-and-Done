@@ -1,6 +1,6 @@
 import streamlit as st
 from utils.team_store import load_teams
-from utils.weekly_reset import should_reset_today, perform_weekly_reset
+# from utils.weekly_reset import should_reset_today, perform_weekly_reset
 
 # -------------------------
 # Reset commented OUTPUT_PATH
@@ -13,7 +13,7 @@ from utils.weekly_reset import should_reset_today, perform_weekly_reset
 
 
 # -------------------------
-# Load persistent data
+# Load persistent datagi
 # -------------------------
 teams = load_teams()
 

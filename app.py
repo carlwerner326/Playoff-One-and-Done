@@ -1,5 +1,11 @@
 import streamlit as st
 from utils.team_store import load_teams
+from utils.weekly_reset import should_reset_today, perform_weekly_reset
+
+reset_date = should_reset_today()
+if reset_date:
+    perform_weekly_reset(reset_date)
+
 
 # -------------------------
 # Load persistent data

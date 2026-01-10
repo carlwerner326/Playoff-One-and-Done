@@ -2,6 +2,8 @@ import streamlit as st
 from utils.team_store import load_teams, save_teams
 import json
 from pathlib import Path
+from datetime import datetime, timezone
+
 
 ESPN_PLAYERS_PATH = Path("data/espn_players.json")
 
@@ -43,6 +45,8 @@ user = st.session_state.unlocked_user
 # Locking At Kickoff
 # -------------------------
 from utils.time_lock import is_lineup_locked
+first_kickoff = get_first_kickoff_utc()
+st.info(f"DEBUG kickoff_utc={first_kickoff}, now_utc={datetime.now(timezone.utc)}")
 
 
 def is_locked(_player_name=None):

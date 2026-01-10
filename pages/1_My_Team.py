@@ -48,14 +48,6 @@ locked = is_lineup_locked()
 first_kickoff = get_first_kickoff_utc()
 now_utc = datetime.now(timezone.utc)
 
-# DEBUG (leave this in for now)
-st.info(
-    f"DEBUG LOCK STATUS\n"
-    f"now_utc={now_utc}\n"
-    f"first_kickoff={first_kickoff}\n"
-    f"locked={locked}"
-)
-
 
 # -------------------------
 # Roster configuration

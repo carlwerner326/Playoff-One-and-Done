@@ -1,4 +1,4 @@
-name: Sanity Check (No-Op)
+name: Live ESPN Stats + Scoring
 
 permissions:
   contents: write
@@ -8,9 +8,8 @@ on:
     - cron: "*/10 * * * *"
   workflow_dispatch:
 
-
 jobs:
-  sanity-check:
+  live-stats-and-scoring:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,19 +24,22 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run ESPN CI player stats updater
+      - name: Pull ESPN player stats
         run: python scripts/update_espn_player_stats_ci.py
+
+      - name: Run fantasy scoring
+        run: python scripts/update_player_points_ci.py
 
       - name: Configure git
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-      - name: Commit player stats if changed
+      - name: Commit updated data if changed
         run: |
           if git status --porcelain | grep .; then
-            git add data/player_stats.json
-            git commit -m "CI: update ESPN player stats"
+            git add data/player_stats.json data/player_points.json
+            git commit -m "CI: update ESPN stats and fantasy points"
             git push
           else
             echo "No changes to commit"

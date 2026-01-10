@@ -44,7 +44,7 @@ user = st.session_state.unlocked_user
 # -------------------------
 # Locking At Kickoff
 # -------------------------
-from utils.time_lock import is_lineup_locked
+from utils.time_lock import is_lineup_locked, get_first_kickoff_utc
 first_kickoff = get_first_kickoff_utc()
 st.info(f"DEBUG kickoff_utc={first_kickoff}, now_utc={datetime.now(timezone.utc)}")
 

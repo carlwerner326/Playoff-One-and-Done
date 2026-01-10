@@ -23,7 +23,70 @@ if "unlocked_user" not in st.session_state:
 # -------------------------
 # Page Header
 # -------------------------
-st.title("Playoff Fantasy One-and-Done")
+st.markdown("""
+<h1 style="
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1.2rem;
+">
+Playoff Fantasy One-and-Done
+</h1>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<style>
+h1 {
+    margin-top: 0.5rem;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
+
+st.markdown("""
+<style>
+.stApp {
+    background-color: #073A3D;
+}
+
+/* Push the whole page content down slightly */
+.block-container {
+    padding-top: 3.5rem;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
+
+st.markdown("""
+<style>
+.hero-wrap {
+    padding: 10px 0 30px 0;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 900;
+    color: #FFD046;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 18px rgba(255,208,70,0.6);
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.markdown('<div class="hero-wrap">', unsafe_allow_html=True)
+st.markdown(
+    '<div class="hero-text">GO FUCKING BIRDS DICKHEADS 🦅</div>',
+    unsafe_allow_html=True
+)
+st.image("assets/hurts.png", width=900)
+st.markdown('</div>', unsafe_allow_html=True)
+
+
 
 # ----- LEAGUE RULES ----
 st.subheader("League Rules")

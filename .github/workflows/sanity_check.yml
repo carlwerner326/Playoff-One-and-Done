@@ -19,5 +19,20 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run ESPN read-only probe
+      - name: Run ESPN CI probe
         run: python scripts/pull_espn_stats_readonly.py
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+      - name: Commit CI probe if changed
+        run: |
+          if git status --porcelain | grep .; then
+            git add data/_ci_probe.json
+            git commit -m "CI: update ESPN probe"
+            git push
+          else
+            echo "No changes to commit"
+          fi

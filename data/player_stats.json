@@ -1,4 +1,2578 @@
 {
+  "Josh Allen": {
+    "position": null,
+    "raw_labels": [
+      "FUM",
+      "LOST",
+      "REC"
+    ],
+    "raw_stats": [
+      "3",
+      "2",
+      "1"
+    ]
+  },
+  "James Cook III": {
+    "position": null,
+    "raw_labels": [
+      "FUM",
+      "LOST",
+      "REC"
+    ],
+    "raw_stats": [
+      "1",
+      "1",
+      "0"
+    ]
+  },
+  "Dalton Kincaid": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Khalil Shakir": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Ray Davis": {
+    "position": null,
+    "raw_labels": [
+      "NO",
+      "YDS",
+      "AVG",
+      "LONG",
+      "TD"
+    ],
+    "raw_stats": [
+      "5",
+      "130",
+      "26.0",
+      "28",
+      "0"
+    ]
+  },
+  "Dawson Knox": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "3",
+      "32",
+      "10.7",
+      "0",
+      "13",
+      "5"
+    ]
+  },
+  "Brandin Cooks": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Keon Coleman": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "1",
+      "10",
+      "10.0",
+      "1",
+      "10",
+      "3"
+    ]
+  },
+  "Mecole Hardman Jr.": {
+    "position": null,
+    "raw_labels": [
+      "NO",
+      "YDS",
+      "AVG",
+      "LONG",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "22",
+      "22.0",
+      "22",
+      "0"
+    ]
+  },
+  "Curtis Samuel": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "1",
+      "2",
+      "2.0",
+      "0",
+      "2",
+      "3"
+    ]
+  },
+  "Alec Anderson": {
+    "position": null,
+    "raw_labels": [
+      "FUM",
+      "LOST",
+      "REC"
+    ],
+    "raw_stats": [
+      "1",
+      "0",
+      "0"
+    ]
+  },
+  "Spencer Brown": {
+    "position": null,
+    "raw_labels": [
+      "FUM",
+      "LOST",
+      "REC"
+    ],
+    "raw_stats": [
+      "0",
+      "0",
+      "1"
+    ]
+  },
+  "Cole Bishop": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "12",
+      "7",
+      "0",
+      "2",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Cam Lewis": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "10",
+      "6",
+      "0",
+      "0",
+      "2",
+      "0",
+      "0"
+    ]
+  },
+  "Taron Johnson": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "6",
+      "5",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Shaq Thompson": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "5",
+      "4",
+      "0",
+      "2",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Tre'Davious White": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "4",
+      "3",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Joey Bosa": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "3",
+      "2",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Darnell Savage": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "3",
+      "2",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Deone Walker": {
+    "position": null,
+    "raw_labels": [
+      "INT",
+      "YDS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "3",
+      "0"
+    ]
+  },
+  "Matt Milano": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "3",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Christian Benford": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "2",
+      "1",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0"
+    ]
+  },
+  "DaQuan Jones": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "2",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Greg Rousseau": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "2",
+      "0",
+      "0",
+      "0",
+      "1",
+      "3",
+      "0"
+    ]
+  },
+  "Dorian Williams": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "AJ Epenesa": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "0",
+      "0",
+      "0",
+      "2",
+      "0",
+      "0"
+    ]
+  },
+  "Joe Andreessen": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Javon Solomon": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Frank Gore Jr.": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Matt Prater": {
+    "position": null,
+    "raw_labels": [
+      "FG",
+      "PCT",
+      "LONG",
+      "XP",
+      "PTS"
+    ],
+    "raw_stats": [
+      "3/3",
+      "100.0",
+      "50",
+      "3/3",
+      "12"
+    ]
+  },
+  "Bo Nix": {
+    "position": null,
+    "raw_labels": [
+      "FUM",
+      "LOST",
+      "REC"
+    ],
+    "raw_stats": [
+      "1",
+      "0",
+      "1"
+    ]
+  },
+  "Jaleel McLaughlin": {
+    "position": null,
+    "raw_labels": [
+      "NO",
+      "YDS",
+      "AVG",
+      "LONG",
+      "TD"
+    ],
+    "raw_stats": [
+      "3",
+      "59",
+      "19.7",
+      "27",
+      "0"
+    ]
+  },
+  "RJ Harvey": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "5",
+      "46",
+      "9.2",
+      "0",
+      "24",
+      "6"
+    ]
+  },
+  "Marvin Mims Jr.": {
+    "position": null,
+    "raw_labels": [
+      "NO",
+      "YDS",
+      "AVG",
+      "LONG",
+      "TD"
+    ],
+    "raw_stats": [
+      "2",
+      "50",
+      "25.0",
+      "25",
+      "0"
+    ]
+  },
+  "Courtland Sutton": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "4",
+      "53",
+      "13.3",
+      "0",
+      "25",
+      "9"
+    ]
+  },
+  "Lil'Jordan Humphrey": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "2",
+      "33",
+      "16.5",
+      "1",
+      "29",
+      "5"
+    ]
+  },
+  "Pat Bryant": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "3",
+      "32",
+      "10.7",
+      "0",
+      "15",
+      "3"
+    ]
+  },
+  "Frank Crum": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "1",
+      "7",
+      "7.0",
+      "1",
+      "7",
+      "1"
+    ]
+  },
+  "Evan Engram": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "1",
+      "7",
+      "7.0",
+      "0",
+      "7",
+      "3"
+    ]
+  },
+  "Tyler Badie": {
+    "position": null,
+    "raw_labels": [
+      "NO",
+      "YDS",
+      "AVG",
+      "LONG",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "27",
+      "27.0",
+      "27",
+      "0"
+    ]
+  },
+  "Nate Adkins": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "1",
+      "1",
+      "1.0",
+      "0",
+      "1",
+      "1"
+    ]
+  },
+  "Adam Trautman": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "0",
+      "0",
+      "0.0",
+      "0",
+      "0",
+      "2"
+    ]
+  },
+  "Adam Prentice": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "0",
+      "0",
+      "0.0",
+      "0",
+      "0",
+      "1"
+    ]
+  },
+  "Devon Key": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "4",
+      "4",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Malcolm Roach": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "5",
+      "3",
+      "1.5",
+      "1",
+      "0",
+      "3",
+      "0"
+    ]
+  },
+  "Talanoa Hufanga": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "10",
+      "7",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Alex Singleton": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "14",
+      "11",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ]
+  },
+  "P.J. Locke": {
+    "position": null,
+    "raw_labels": [
+      "INT",
+      "YDS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "30",
+      "0"
+    ]
+  },
+  "Dondrea Tillman": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "6",
+      "4",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Zach Allen": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "5",
+      "3",
+      "0.5",
+      "0",
+      "0",
+      "3",
+      "0"
+    ]
+  },
+  "Riley Moss": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "4",
+      "3",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Dre Greenlaw": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "4",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Nik Bonitto": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "3",
+      "2",
+      "1",
+      "1",
+      "0",
+      "1",
+      "0"
+    ]
+  },
+  "Pat Surtain II": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "3",
+      "2",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Jonah Elliss": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "3",
+      "2",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Eyioma Uwazurike": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "3",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Jonathon Cooper": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "2",
+      "2",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ]
+  },
+  "JL Skinner": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "2",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Justin Strnad": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Garett Bolles": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Ja'Quan McMillian": {
+    "position": null,
+    "raw_labels": [
+      "INT",
+      "YDS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "0",
+      "0"
+    ]
+  },
+  "Jordan Turner": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "John Franklin-Myers": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ]
+  },
+  "Wil Lutz": {
+    "position": null,
+    "raw_labels": [
+      "FG",
+      "PCT",
+      "LONG",
+      "XP",
+      "PTS"
+    ],
+    "raw_stats": [
+      "4/4",
+      "100.0",
+      "50",
+      "3/3",
+      "15"
+    ]
+  },
+  "Jeremy Crawshaw": {
+    "position": null,
+    "raw_labels": [
+      "NO",
+      "YDS",
+      "AVG",
+      "TB",
+      "In 20",
+      "LONG"
+    ],
+    "raw_stats": [
+      "4",
+      "188",
+      "47.0",
+      "1",
+      "2",
+      "65"
+    ]
+  },
+  "Brock Purdy": {
+    "position": null,
+    "raw_labels": [
+      "FUM",
+      "LOST",
+      "REC"
+    ],
+    "raw_stats": [
+      "1",
+      "1",
+      "0"
+    ]
+  },
+  "Mac Jones": {
+    "position": null,
+    "raw_labels": [
+      "CAR",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG"
+    ],
+    "raw_stats": [
+      "1",
+      "7",
+      "7.0",
+      "0",
+      "7"
+    ]
+  },
+  "Christian McCaffrey": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "5",
+      "39",
+      "7.8",
+      "0",
+      "11",
+      "6"
+    ]
+  },
+  "Jordan James": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "1",
+      "7",
+      "7.0",
+      "0",
+      "7",
+      "1"
+    ]
+  },
+  "Brian Robinson Jr.": {
+    "position": null,
+    "raw_labels": [
+      "NO",
+      "YDS",
+      "AVG",
+      "LONG",
+      "TD"
+    ],
+    "raw_stats": [
+      "3",
+      "66",
+      "22.0",
+      "26",
+      "0"
+    ]
+  },
+  "Kyle Juszczyk": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Jake Tonges": {
+    "position": null,
+    "raw_labels": [
+      "FUM",
+      "LOST",
+      "REC"
+    ],
+    "raw_stats": [
+      "1",
+      "1",
+      "0"
+    ]
+  },
+  "Jauan Jennings": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "2",
+      "23",
+      "11.5",
+      "0",
+      "19",
+      "5"
+    ]
+  },
+  "Demarcus Robinson": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "1",
+      "1",
+      "1.0",
+      "0",
+      "1",
+      "1"
+    ]
+  },
+  "Luke Farrell": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Kendrick Bourne": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "0",
+      "0",
+      "0.0",
+      "0",
+      "0",
+      "2"
+    ]
+  },
+  "Ricky Pearsall": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "0",
+      "0",
+      "0.0",
+      "0",
+      "0",
+      "2"
+    ]
+  },
+  "Dee Winters": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "9",
+      "5",
+      "0",
+      "3",
+      "0",
+      "1",
+      "0"
+    ]
+  },
+  "Eric Kendricks": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "9",
+      "4",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Malik Mustapha": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "8",
+      "5",
+      "1",
+      "1",
+      "0",
+      "1",
+      "0"
+    ]
+  },
+  "Marques Sigle": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "6",
+      "4",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Renardo Green": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "5",
+      "4",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Deommodore Lenoir": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "3",
+      "2",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Sam Okuayinonu": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "3",
+      "2",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "C.J. West": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "2",
+      "2",
+      "1",
+      "1",
+      "0",
+      "1",
+      "0"
+    ]
+  },
+  "Clelin Ferrell": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "2",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Upton Stout": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "2",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Curtis Robinson": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "2",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Yetur Gross-Matos": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "2",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Siran Neal": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Jordan Elliott": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Bryce Huff": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Garret Wallow": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Keion White": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Skyy Moore": {
+    "position": null,
+    "raw_labels": [
+      "NO",
+      "YDS",
+      "AVG",
+      "LONG",
+      "TD"
+    ],
+    "raw_stats": [
+      "2",
+      "4",
+      "2.0",
+      "6",
+      "0"
+    ]
+  },
+  "Eddy Pineiro": {
+    "position": null,
+    "raw_labels": [
+      "FG",
+      "PCT",
+      "LONG",
+      "XP",
+      "PTS"
+    ],
+    "raw_stats": [
+      "2/2",
+      "100.0",
+      "56",
+      "0/0",
+      "6"
+    ]
+  },
+  "Thomas Morstead": {
+    "position": null,
+    "raw_labels": [
+      "NO",
+      "YDS",
+      "AVG",
+      "TB",
+      "In 20",
+      "LONG"
+    ],
+    "raw_stats": [
+      "1",
+      "51",
+      "51.0",
+      "0",
+      "1",
+      "51"
+    ]
+  },
+  "Sam Darnold": {
+    "position": null,
+    "raw_labels": [
+      "C/ATT",
+      "YDS",
+      "AVG",
+      "TD",
+      "INT",
+      "SACKS",
+      "QBR",
+      "RTG"
+    ],
+    "raw_stats": [
+      "12/17",
+      "124",
+      "7.3",
+      "1",
+      "0",
+      "2-18",
+      "63.2",
+      "110.9"
+    ]
+  },
+  "Kenneth Walker III": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "3",
+      "29",
+      "9.7",
+      "0",
+      "15",
+      "3"
+    ]
+  },
+  "Rashid Shaheed": {
+    "position": null,
+    "raw_labels": [
+      "NO",
+      "YDS",
+      "AVG",
+      "LONG",
+      "TD"
+    ],
+    "raw_stats": [
+      "2",
+      "126",
+      "63.0",
+      "95",
+      "1"
+    ]
+  },
+  "Zach Charbonnet": {
+    "position": null,
+    "raw_labels": [
+      "CAR",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG"
+    ],
+    "raw_stats": [
+      "5",
+      "20",
+      "4.0",
+      "0",
+      "15"
+    ]
+  },
+  "Velus Jones Jr.": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "AJ Barner": {
+    "position": null,
+    "raw_labels": [
+      "CAR",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG"
+    ],
+    "raw_stats": [
+      "1",
+      "2",
+      "2.0",
+      "0",
+      "2"
+    ]
+  },
+  "Cooper Kupp": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "5",
+      "60",
+      "12.0",
+      "0",
+      "21",
+      "5"
+    ]
+  },
+  "Jaxon Smith-Njigba": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "3",
+      "19",
+      "6.3",
+      "1",
+      "11",
+      "4"
+    ]
+  },
+  "Jake Bobo": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "1",
+      "16",
+      "16.0",
+      "0",
+      "16",
+      "1"
+    ]
+  },
+  "Robbie Ouzts": {
+    "position": null,
+    "raw_labels": [
+      "REC",
+      "YDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "TGTS"
+    ],
+    "raw_stats": [
+      "0",
+      "0",
+      "0.0",
+      "0",
+      "0",
+      "1"
+    ]
+  },
+  "Julian Love": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "2",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Nick Emmanwori": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "3",
+      "2",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0"
+    ]
+  },
+  "Devon Witherspoon": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "7",
+      "3",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0"
+    ]
+  },
+  "Ernest Jones IV": {
+    "position": null,
+    "raw_labels": [
+      "INT",
+      "YDS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "0",
+      "0"
+    ]
+  },
+  "Drake Thomas": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "6",
+      "3",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Tyrice Knight": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "5",
+      "5",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Coby Bryant": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "4",
+      "4",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0"
+    ]
+  },
+  "DeMarcus Lawrence": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "3",
+      "3",
+      "1",
+      "2",
+      "1",
+      "3",
+      "0"
+    ]
+  },
+  "Brandon Pili": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "3",
+      "2",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Jarran Reed": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "3",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Boye Mafe": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "3",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Mike Morris": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "3",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Derick Hall": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "2",
+      "2",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Leonard Williams": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "2",
+      "1",
+      "1",
+      "1",
+      "0",
+      "2",
+      "0"
+    ]
+  },
+  "Ty Okada": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "2",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Patrick O'Connell": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "2",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Byron Murphy II": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "2",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Riq Woolen": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "2",
+      "0",
+      "0",
+      "0",
+      "2",
+      "0",
+      "0"
+    ]
+  },
+  "Brady Russell": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Josh Jobe": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Uchenna Nwosu": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Dareke Young": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Connor O'Toole": {
+    "position": null,
+    "raw_labels": [
+      "TOT",
+      "SOLO",
+      "SACKS",
+      "TFL",
+      "PD",
+      "QB HTS",
+      "TD"
+    ],
+    "raw_stats": [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "Jason Myers": {
+    "position": null,
+    "raw_labels": [
+      "FG",
+      "PCT",
+      "LONG",
+      "XP",
+      "PTS"
+    ],
+    "raw_stats": [
+      "2/2",
+      "100.0",
+      "31",
+      "5/5",
+      "11"
+    ]
+  },
+  "Michael Dickson": {
+    "position": null,
+    "raw_labels": [
+      "NO",
+      "YDS",
+      "AVG",
+      "TB",
+      "In 20",
+      "LONG"
+    ],
+    "raw_stats": [
+      "3",
+      "149",
+      "49.7",
+      "0",
+      "2",
+      "54"
+    ]
+  },
   "C.J. Stroud": {
     "position": null,
     "raw_labels": [
@@ -2752,2580 +5326,6 @@
       "0",
       "1",
       "51"
-    ]
-  },
-  "Josh Allen": {
-    "position": null,
-    "raw_labels": [
-      "FUM",
-      "LOST",
-      "REC"
-    ],
-    "raw_stats": [
-      "3",
-      "2",
-      "1"
-    ]
-  },
-  "James Cook III": {
-    "position": null,
-    "raw_labels": [
-      "FUM",
-      "LOST",
-      "REC"
-    ],
-    "raw_stats": [
-      "1",
-      "1",
-      "0"
-    ]
-  },
-  "Dalton Kincaid": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Khalil Shakir": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Ray Davis": {
-    "position": null,
-    "raw_labels": [
-      "NO",
-      "YDS",
-      "AVG",
-      "LONG",
-      "TD"
-    ],
-    "raw_stats": [
-      "5",
-      "130",
-      "26.0",
-      "28",
-      "0"
-    ]
-  },
-  "Dawson Knox": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "3",
-      "32",
-      "10.7",
-      "0",
-      "13",
-      "5"
-    ]
-  },
-  "Brandin Cooks": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Keon Coleman": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "1",
-      "10",
-      "10.0",
-      "1",
-      "10",
-      "3"
-    ]
-  },
-  "Mecole Hardman Jr.": {
-    "position": null,
-    "raw_labels": [
-      "NO",
-      "YDS",
-      "AVG",
-      "LONG",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "22",
-      "22.0",
-      "22",
-      "0"
-    ]
-  },
-  "Curtis Samuel": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "1",
-      "2",
-      "2.0",
-      "0",
-      "2",
-      "3"
-    ]
-  },
-  "Alec Anderson": {
-    "position": null,
-    "raw_labels": [
-      "FUM",
-      "LOST",
-      "REC"
-    ],
-    "raw_stats": [
-      "1",
-      "0",
-      "0"
-    ]
-  },
-  "Spencer Brown": {
-    "position": null,
-    "raw_labels": [
-      "FUM",
-      "LOST",
-      "REC"
-    ],
-    "raw_stats": [
-      "0",
-      "0",
-      "1"
-    ]
-  },
-  "Cole Bishop": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "12",
-      "7",
-      "0",
-      "2",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Cam Lewis": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "10",
-      "6",
-      "0",
-      "0",
-      "2",
-      "0",
-      "0"
-    ]
-  },
-  "Taron Johnson": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "6",
-      "5",
-      "0",
-      "1",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Shaq Thompson": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "5",
-      "4",
-      "0",
-      "2",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Tre'Davious White": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "4",
-      "3",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Joey Bosa": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "3",
-      "2",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Darnell Savage": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "3",
-      "2",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Deone Walker": {
-    "position": null,
-    "raw_labels": [
-      "INT",
-      "YDS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "3",
-      "0"
-    ]
-  },
-  "Matt Milano": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "3",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Christian Benford": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "2",
-      "1",
-      "0",
-      "0",
-      "1",
-      "0",
-      "0"
-    ]
-  },
-  "DaQuan Jones": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "2",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Greg Rousseau": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "2",
-      "0",
-      "0",
-      "0",
-      "1",
-      "3",
-      "0"
-    ]
-  },
-  "Dorian Williams": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "AJ Epenesa": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "0",
-      "0",
-      "0",
-      "2",
-      "0",
-      "0"
-    ]
-  },
-  "Joe Andreessen": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Javon Solomon": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Frank Gore Jr.": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Matt Prater": {
-    "position": null,
-    "raw_labels": [
-      "FG",
-      "PCT",
-      "LONG",
-      "XP",
-      "PTS"
-    ],
-    "raw_stats": [
-      "3/3",
-      "100.0",
-      "50",
-      "3/3",
-      "12"
-    ]
-  },
-  "Bo Nix": {
-    "position": null,
-    "raw_labels": [
-      "FUM",
-      "LOST",
-      "REC"
-    ],
-    "raw_stats": [
-      "1",
-      "0",
-      "1"
-    ]
-  },
-  "Jaleel McLaughlin": {
-    "position": null,
-    "raw_labels": [
-      "NO",
-      "YDS",
-      "AVG",
-      "LONG",
-      "TD"
-    ],
-    "raw_stats": [
-      "3",
-      "59",
-      "19.7",
-      "27",
-      "0"
-    ]
-  },
-  "RJ Harvey": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "5",
-      "46",
-      "9.2",
-      "0",
-      "24",
-      "6"
-    ]
-  },
-  "Marvin Mims Jr.": {
-    "position": null,
-    "raw_labels": [
-      "NO",
-      "YDS",
-      "AVG",
-      "LONG",
-      "TD"
-    ],
-    "raw_stats": [
-      "2",
-      "50",
-      "25.0",
-      "25",
-      "0"
-    ]
-  },
-  "Courtland Sutton": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "4",
-      "53",
-      "13.3",
-      "0",
-      "25",
-      "9"
-    ]
-  },
-  "Lil'Jordan Humphrey": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "2",
-      "33",
-      "16.5",
-      "1",
-      "29",
-      "5"
-    ]
-  },
-  "Pat Bryant": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "3",
-      "32",
-      "10.7",
-      "0",
-      "15",
-      "3"
-    ]
-  },
-  "Frank Crum": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "1",
-      "7",
-      "7.0",
-      "1",
-      "7",
-      "1"
-    ]
-  },
-  "Evan Engram": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "1",
-      "7",
-      "7.0",
-      "0",
-      "7",
-      "3"
-    ]
-  },
-  "Tyler Badie": {
-    "position": null,
-    "raw_labels": [
-      "NO",
-      "YDS",
-      "AVG",
-      "LONG",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "27",
-      "27.0",
-      "27",
-      "0"
-    ]
-  },
-  "Nate Adkins": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "1",
-      "1",
-      "1.0",
-      "0",
-      "1",
-      "1"
-    ]
-  },
-  "Adam Trautman": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "0",
-      "0",
-      "0.0",
-      "0",
-      "0",
-      "2"
-    ]
-  },
-  "Adam Prentice": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "0",
-      "0",
-      "0.0",
-      "0",
-      "0",
-      "1"
-    ]
-  },
-  "Devon Key": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "4",
-      "4",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Malcolm Roach": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "5",
-      "3",
-      "1.5",
-      "1",
-      "0",
-      "3",
-      "0"
-    ]
-  },
-  "Talanoa Hufanga": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "10",
-      "7",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Alex Singleton": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "14",
-      "11",
-      "0",
-      "0",
-      "0",
-      "1",
-      "0"
-    ]
-  },
-  "P.J. Locke": {
-    "position": null,
-    "raw_labels": [
-      "INT",
-      "YDS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "30",
-      "0"
-    ]
-  },
-  "Dondrea Tillman": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "6",
-      "4",
-      "0",
-      "1",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Zach Allen": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "5",
-      "3",
-      "0.5",
-      "0",
-      "0",
-      "3",
-      "0"
-    ]
-  },
-  "Riley Moss": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "4",
-      "3",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Dre Greenlaw": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "4",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Nik Bonitto": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "3",
-      "2",
-      "1",
-      "1",
-      "0",
-      "1",
-      "0"
-    ]
-  },
-  "Pat Surtain II": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "3",
-      "2",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Jonah Elliss": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "3",
-      "2",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Eyioma Uwazurike": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "3",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Jonathon Cooper": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "2",
-      "2",
-      "0",
-      "0",
-      "0",
-      "1",
-      "0"
-    ]
-  },
-  "JL Skinner": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "2",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Justin Strnad": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Garett Bolles": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Ja'Quan McMillian": {
-    "position": null,
-    "raw_labels": [
-      "INT",
-      "YDS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "0",
-      "0"
-    ]
-  },
-  "Jordan Turner": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "John Franklin-Myers": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "1",
-      "0"
-    ]
-  },
-  "Wil Lutz": {
-    "position": null,
-    "raw_labels": [
-      "FG",
-      "PCT",
-      "LONG",
-      "XP",
-      "PTS"
-    ],
-    "raw_stats": [
-      "4/4",
-      "100.0",
-      "50",
-      "3/3",
-      "15"
-    ]
-  },
-  "Jeremy Crawshaw": {
-    "position": null,
-    "raw_labels": [
-      "NO",
-      "YDS",
-      "AVG",
-      "TB",
-      "In 20",
-      "LONG"
-    ],
-    "raw_stats": [
-      "4",
-      "188",
-      "47.0",
-      "1",
-      "2",
-      "65"
-    ]
-  },
-  "Brock Purdy": {
-    "position": null,
-    "raw_labels": [
-      "FUM",
-      "LOST",
-      "REC"
-    ],
-    "raw_stats": [
-      "1",
-      "1",
-      "0"
-    ]
-  },
-  "Mac Jones": {
-    "position": null,
-    "raw_labels": [
-      "CAR",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG"
-    ],
-    "raw_stats": [
-      "1",
-      "7",
-      "7.0",
-      "0",
-      "7"
-    ]
-  },
-  "Christian McCaffrey": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "5",
-      "39",
-      "7.8",
-      "0",
-      "11",
-      "6"
-    ]
-  },
-  "Jordan James": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "1",
-      "7",
-      "7.0",
-      "0",
-      "7",
-      "1"
-    ]
-  },
-  "Brian Robinson Jr.": {
-    "position": null,
-    "raw_labels": [
-      "NO",
-      "YDS",
-      "AVG",
-      "LONG",
-      "TD"
-    ],
-    "raw_stats": [
-      "3",
-      "66",
-      "22.0",
-      "26",
-      "0"
-    ]
-  },
-  "Kyle Juszczyk": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Jake Tonges": {
-    "position": null,
-    "raw_labels": [
-      "FUM",
-      "LOST",
-      "REC"
-    ],
-    "raw_stats": [
-      "1",
-      "1",
-      "0"
-    ]
-  },
-  "Jauan Jennings": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "2",
-      "23",
-      "11.5",
-      "0",
-      "19",
-      "5"
-    ]
-  },
-  "Demarcus Robinson": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "1",
-      "1",
-      "1.0",
-      "0",
-      "1",
-      "1"
-    ]
-  },
-  "Luke Farrell": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Kendrick Bourne": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "0",
-      "0",
-      "0.0",
-      "0",
-      "0",
-      "2"
-    ]
-  },
-  "Ricky Pearsall": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "0",
-      "0",
-      "0.0",
-      "0",
-      "0",
-      "2"
-    ]
-  },
-  "Dee Winters": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "9",
-      "5",
-      "0",
-      "3",
-      "0",
-      "1",
-      "0"
-    ]
-  },
-  "Eric Kendricks": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "9",
-      "4",
-      "0",
-      "1",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Malik Mustapha": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "8",
-      "5",
-      "1",
-      "1",
-      "0",
-      "1",
-      "0"
-    ]
-  },
-  "Marques Sigle": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "6",
-      "4",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Renardo Green": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "5",
-      "4",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Deommodore Lenoir": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "3",
-      "2",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Sam Okuayinonu": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "3",
-      "2",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "C.J. West": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "2",
-      "2",
-      "1",
-      "1",
-      "0",
-      "1",
-      "0"
-    ]
-  },
-  "Clelin Ferrell": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "2",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Upton Stout": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "2",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Curtis Robinson": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "2",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Yetur Gross-Matos": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "2",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Siran Neal": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Jordan Elliott": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Bryce Huff": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Garret Wallow": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Keion White": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Skyy Moore": {
-    "position": null,
-    "raw_labels": [
-      "NO",
-      "YDS",
-      "AVG",
-      "LONG",
-      "TD"
-    ],
-    "raw_stats": [
-      "2",
-      "4",
-      "2.0",
-      "6",
-      "0"
-    ]
-  },
-  "Eddy Pineiro": {
-    "position": null,
-    "raw_labels": [
-      "FG",
-      "PCT",
-      "LONG",
-      "XP",
-      "PTS"
-    ],
-    "raw_stats": [
-      "2/2",
-      "100.0",
-      "56",
-      "0/0",
-      "6"
-    ]
-  },
-  "Thomas Morstead": {
-    "position": null,
-    "raw_labels": [
-      "NO",
-      "YDS",
-      "AVG",
-      "TB",
-      "In 20",
-      "LONG"
-    ],
-    "raw_stats": [
-      "1",
-      "51",
-      "51.0",
-      "0",
-      "1",
-      "51"
-    ]
-  },
-  "Sam Darnold": {
-    "position": null,
-    "raw_labels": [
-      "C/ATT",
-      "YDS",
-      "AVG",
-      "TD",
-      "INT",
-      "SACKS",
-      "QBR",
-      "RTG"
-    ],
-    "raw_stats": [
-      "12/17",
-      "124",
-      "7.3",
-      "1",
-      "0",
-      "2-18",
-      "63.2",
-      "110.9"
-    ]
-  },
-  "Kenneth Walker III": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "3",
-      "29",
-      "9.7",
-      "0",
-      "15",
-      "3"
-    ]
-  },
-  "Rashid Shaheed": {
-    "position": null,
-    "raw_labels": [
-      "NO",
-      "YDS",
-      "AVG",
-      "LONG",
-      "TD"
-    ],
-    "raw_stats": [
-      "2",
-      "126",
-      "63.0",
-      "95",
-      "1"
-    ]
-  },
-  "Zach Charbonnet": {
-    "position": null,
-    "raw_labels": [
-      "CAR",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG"
-    ],
-    "raw_stats": [
-      "5",
-      "20",
-      "4.0",
-      "0",
-      "15"
-    ]
-  },
-  "Velus Jones Jr.": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "AJ Barner": {
-    "position": null,
-    "raw_labels": [
-      "CAR",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG"
-    ],
-    "raw_stats": [
-      "1",
-      "2",
-      "2.0",
-      "0",
-      "2"
-    ]
-  },
-  "Cooper Kupp": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "5",
-      "60",
-      "12.0",
-      "0",
-      "21",
-      "5"
-    ]
-  },
-  "Jaxon Smith-Njigba": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "3",
-      "19",
-      "6.3",
-      "1",
-      "11",
-      "4"
-    ]
-  },
-  "Jake Bobo": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "1",
-      "16",
-      "16.0",
-      "0",
-      "16",
-      "1"
-    ]
-  },
-  "Robbie Ouzts": {
-    "position": null,
-    "raw_labels": [
-      "REC",
-      "YDS",
-      "AVG",
-      "TD",
-      "LONG",
-      "TGTS"
-    ],
-    "raw_stats": [
-      "0",
-      "0",
-      "0.0",
-      "0",
-      "0",
-      "1"
-    ]
-  },
-  "Julian Love": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "2",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Nick Emmanwori": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "3",
-      "2",
-      "0",
-      "0",
-      "1",
-      "0",
-      "0"
-    ]
-  },
-  "Devon Witherspoon": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "7",
-      "3",
-      "0",
-      "0",
-      "1",
-      "0",
-      "0"
-    ]
-  },
-  "Ernest Jones IV": {
-    "position": null,
-    "raw_labels": [
-      "INT",
-      "YDS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "0",
-      "0"
-    ]
-  },
-  "Drake Thomas": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "6",
-      "3",
-      "0",
-      "1",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Tyrice Knight": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "5",
-      "5",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Coby Bryant": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "4",
-      "4",
-      "0",
-      "0",
-      "1",
-      "0",
-      "0"
-    ]
-  },
-  "DeMarcus Lawrence": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "3",
-      "3",
-      "1",
-      "2",
-      "1",
-      "3",
-      "0"
-    ]
-  },
-  "Brandon Pili": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "3",
-      "2",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Jarran Reed": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "3",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Boye Mafe": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "3",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Mike Morris": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "3",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Derick Hall": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "2",
-      "2",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Leonard Williams": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "2",
-      "1",
-      "1",
-      "1",
-      "0",
-      "2",
-      "0"
-    ]
-  },
-  "Ty Okada": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "2",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Patrick O'Connell": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "2",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Byron Murphy II": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "2",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Riq Woolen": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "2",
-      "0",
-      "0",
-      "0",
-      "2",
-      "0",
-      "0"
-    ]
-  },
-  "Brady Russell": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Josh Jobe": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Uchenna Nwosu": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Dareke Young": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Connor O'Toole": {
-    "position": null,
-    "raw_labels": [
-      "TOT",
-      "SOLO",
-      "SACKS",
-      "TFL",
-      "PD",
-      "QB HTS",
-      "TD"
-    ],
-    "raw_stats": [
-      "1",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  "Jason Myers": {
-    "position": null,
-    "raw_labels": [
-      "FG",
-      "PCT",
-      "LONG",
-      "XP",
-      "PTS"
-    ],
-    "raw_stats": [
-      "2/2",
-      "100.0",
-      "31",
-      "5/5",
-      "11"
-    ]
-  },
-  "Michael Dickson": {
-    "position": null,
-    "raw_labels": [
-      "NO",
-      "YDS",
-      "AVG",
-      "TB",
-      "In 20",
-      "LONG"
-    ],
-    "raw_stats": [
-      "3",
-      "149",
-      "49.7",
-      "0",
-      "2",
-      "54"
     ]
   }
 }
